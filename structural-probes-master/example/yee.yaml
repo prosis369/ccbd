@@ -18,7 +18,7 @@ dataset:
     test_path: hi_hdtb-ud-test.conllu
   embeddings:
     type: token #{token,subword}
-    root: example/data/hindi/
+    root: example/data/hindi/complete_dataset/
     train_path: train.elmo-layers.hdf5
     dev_path: dev.elmo-layers.hdf5
     test_path: test.elmo-layers.hdf5
