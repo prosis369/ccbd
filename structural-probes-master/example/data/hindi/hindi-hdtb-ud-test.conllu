@@ -1,0 +1,955 @@
+# sent_id = test-s1
+# text = इसके अतिरिक्त गुग्गुल कुंड, भीम गुफा तथा भीमशिला भी दर्शनीय स्थल हैं ।
+1	इसके	यह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	Vib=0_अतिरिक्त|Tam=ke|ChunkId=NP|ChunkType=head|Translit=isake
+2	अतिरिक्त	अतिरिक्त	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|Translit=atirikta
+3	गुग्गुल	गुग्गुल	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=guggula
+4	कुंड	कुंड	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kuṁḍa
+5	,	COMMA	PUNCT	SYM	_	7	punct	_	ChunkId=NP2|ChunkType=child|Translit=,
+6	भीम	भीम	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=bhīma
+7	गुफा	गुफा	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=guphā
+8	तथा	तथा	CCONJ	CC	_	9	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+9	भीमशिला	भीमशिला	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bhīmaśilā
+10	भी	भी	PART	RP	_	9	dep	_	ChunkId=NP4|ChunkType=child|Translit=bhī
+11	दर्शनीय	दर्शनीय	ADJ	JJ	Case=Nom	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=darśanīya
+12	स्थल	स्थल	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sthala
+13	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+14	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s2
+# text = आधा किमी की दूरी पर भैरवनाथ मंदिर है, जहाँ केवल केदारनाथ के पट खुलने और बंद होने के दिन ही पूजन किया जाता है ।
+1	आधा	आधा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	2	det	_	ChunkId=NP|ChunkType=child|Translit=ādhā
+2	किमी	किमी	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=kimī
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+4	दूरी	दूरी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dūrī
+5	पर	पर	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+6	भैरवनाथ	भैरवनाथ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=bhairavanātha
+7	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+8	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+9	,	COMMA	PUNCT	SYM	_	23	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+10	जहाँ	जहाँ	PRON	PRP	Case=Nom|PronType=Prs	23	obl	_	ChunkId=NP4|ChunkType=head|Translit=jahām̃
+11	केवल	केवल	PART	RP	_	12	dep	_	ChunkId=NP5|ChunkType=child|Translit=kevala
+12	केदारनाथ	केदारनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kedāranātha
+13	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	12	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+14	पट	पट	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	15	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=paṭa
+15	खुलने	खुल	VERB	VM	Case=Acc|VerbForm=Inf	20	nmod	_	Vib=ना|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=khulane
+16	और	और	CCONJ	CC	_	18	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+17	बंद	बंद	ADJ	JJ	_	18	compound	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+18	होने	हो	VERB	VM	Case=Acc|Number=Plur|VerbForm=Inf	15	conj	_	Vib=ना_का|Tam=nA|ChunkId=VGNN2|ChunkType=head|Translit=hone
+19	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	18	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=ke
+20	दिन	दिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=dina
+21	ही	ही	PART	RP	_	20	dep	_	ChunkId=NP7|ChunkType=child|Translit=hī
+22	पूजन	पूजन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=pūjana
+23	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	7	acl:relcl	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=kiyā
+24	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	23	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātā
+25	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+26	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s3
+# text = भैरव का स्थान उत्तराखंड में क्षेत्रपाल अथवा भूमिदेव के रूप में महत्वपूर्ण है ।
+1	भैरव	भैरव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=bhairava
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+3	स्थान	स्थान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sthāna
+4	उत्तराखंड	उत्तराखंड	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nmod	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=uttarākhaṁḍa
+5	में	में	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+6	क्षेत्रपाल	क्षेत्रपाल	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kṣetrapāla
+7	अथवा	अथवा	CCONJ	CC	_	8	cc	_	ChunkId=CCP|ChunkType=head|Translit=athavā
+8	भूमिदेव	भूमिदेव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	conj	_	Vib=0_के_रूप_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=bhūmideva
+9	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	8	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+10	रूप	रूप	ADP	PSP	Case=Acc|Gender=Masc	8	case	_	ChunkId=NP5|ChunkType=child|Translit=rūpa
+11	में	में	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+12	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	_	0	root	_	ChunkId=JJP|ChunkType=head|Translit=mahatvapūrṇa
+13	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+14	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s4
+# text = यह सोनप्रयाग से 5 किमी आगे और केदारनाथ में 6 किमी पहले (पैदल) पड़ने वाला एक अत्यंत महत्वपूर्ण तीर्थ एवं विश्राम स्थल है ।
+1	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	सोनप्रयाग	सोनप्रयाग	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sonaprayāga
+3	से	से	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+4	5	5	NUM	QC	NumType=Card	5	nummod	_	ChunkId=NP3|ChunkType=child|Translit=5
+5	किमी	किमी	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	obl	_	Vib=0_आगे|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kimī
+6	आगे	आगे	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=āge
+7	और	और	CCONJ	CC	_	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	केदारनाथ	केदारनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kedāranātha
+9	में	में	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+10	6	6	NUM	QC	NumType=Card	11	nummod	_	ChunkId=NP5|ChunkType=child|Translit=6
+11	किमी	किमी	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	conj	_	Vib=0_पहले|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kimī
+12	पहले	पहले	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	AltTag=ADP-NOUN|ChunkId=NP5|ChunkType=child|Translit=pahale
+13	(	(	PUNCT	SYM	_	14	punct	_	SpaceAfter=No|ChunkId=NP6|ChunkType=child|Translit=(
+14	पैदल	पैदल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=paidala
+15	)	)	PUNCT	SYM	_	14	punct	_	ChunkId=NP6|ChunkType=child|Translit=)
+16	पड़ने	पड़	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	21	amod	_	Vib=ना_वाला|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=paṛane
+17	वाला	वाला	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	16	mark	_	ChunkId=VGNN|ChunkType=child|Translit=vālā
+18	एक	एक	NUM	QC	NumType=Card	20	nummod	_	ChunkId=JJP|ChunkType=child|Translit=eka
+19	अत्यंत	अत्यन्त	ADV	INTF	AdvType=Deg	20	advmod	_	AltTag=avy-ADV|ChunkId=JJP|ChunkType=child|Translit=atyaṁta
+20	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	Case=Nom	21	amod	_	ChunkId=JJP|ChunkType=head|Translit=mahatvapūrṇa
+21	तीर्थ	तीर्थ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=tīrtha
+22	एवं	एवं	CCONJ	CC	_	24	cc	_	ChunkId=CCP2|ChunkType=head|Translit=evaṁ
+23	विश्राम	विश्राम	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=viśrāma
+24	स्थल	स्थल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	conj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=sthala
+25	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+26	।	।	PUNCT	SYM	_	21	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s5
+# text = इसकी ऊँचाई केवल 1982 मीटर है ।
+1	इसकी	यह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=isakī
+2	ऊँचाई	ऊँचाई	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ūm̃cāī
+3	केवल	केवल	PART	RP	_	4	dep	_	ChunkId=NP3|ChunkType=child|Translit=kevala
+4	1982	1982	NUM	QC	NumType=Card	5	nummod	_	ChunkId=NP3|ChunkType=child|Translit=1982
+5	मीटर	मीटर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mīṭara
+6	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s6
+# text = यहाँ गर्म पानी और ठंडे पानी के दो बहुत ही उत्तम कुंड हैं ।
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	12	nmod	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	गर्म	गर्म	ADJ	JJ	Case=Acc	3	amod	_	ChunkId=NP2|ChunkType=child|Translit=garma
+3	पानी	पानी	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pānī
+4	और	और	CCONJ	CC	_	6	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+5	ठंडे	ठंडा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=ṭhaṁḍe
+6	पानी	पानी	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	conj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pānī
+7	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	3	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	दो	दो	NUM	QC	NumType=Card	12	nummod	_	ChunkId=NP4|ChunkType=child|Translit=do
+9	बहुत	बहुत	DET	QF	PronType=Ind	12	det	_	ChunkId=NP4|ChunkType=child|Translit=bahuta
+10	ही	ही	PART	RP	_	9	dep	_	ChunkId=NP4|ChunkType=child|Translit=hī
+11	उत्तम	उत्तम	ADJ	JJ	Case=Nom	12	amod	_	ChunkId=NP4|ChunkType=child|Translit=uttama
+12	कुंड	कुंड	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kuṁḍa
+13	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+14	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s7
+# text = यहाँ गौरी मंदिर है, जो कुछ छोटा है और प्राचीन नहीं है ।
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	3	nmod	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	गौरी	गौरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=gaurī
+3	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=maṁdira
+4	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+5	,	COMMA	PUNCT	SYM	_	8	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+6	जो	जो	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=jo
+7	कुछ	कुछ	DET	QF	PronType=Ind	8	det	_	ChunkId=JJP|ChunkType=child|Translit=kucha
+8	छोटा	छोटा	ADJ	JJ	Gender=Masc|Number=Sing	3	acl:relcl	_	ChunkId=JJP|ChunkType=head|Translit=choṭā
+9	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=hai
+10	और	और	CCONJ	CC	_	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+11	प्राचीन	प्राचीन	ADJ	JJ	_	8	conj	_	ChunkId=JJP2|ChunkType=head|Translit=prācīna
+12	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	11	advmod	_	ChunkId=VGF3|ChunkType=child|Translit=nahīṁ
+13	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	Vib=है|Tam=hE|ChunkId=VGF3|ChunkType=head|Stype=declarative|Translit=hai
+14	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s8
+# text = जनश्रुति है कि इसी स्थान पर पार्वती ने महादेव को पाने के लिए तपस्या की थी ।
+1	जनश्रुति	जनश्रुति	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=janaśruti
+2	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+3	कि	कि	SCONJ	CC	_	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+4	इसी	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	5	det	_	ChunkId=NP2|ChunkType=child|Translit=isī
+5	स्थान	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sthāna
+6	पर	पर	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+7	पार्वती	पार्वती	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pārvatī
+8	ने	ने	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child|Translit=ne
+9	महादेव	महादेव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mahādeva
+10	को	को	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+11	पाने	पा	VERB	VM	Case=Acc|VerbForm=Inf	15	advcl	_	Vib=ना_के_लिए|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=pāne
+12	के	के	ADP	PSP	AdpType=Post	11	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+13	लिए	लिए	ADP	PSP	AdpType=Post	11	mark	_	ChunkId=VGNN|ChunkType=child|Translit=lie
+14	तपस्या	तपस्या	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=tapasyā
+15	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	1	acl	_	Vib=या_था|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=kī
+16	थी	था	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	aux	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=thī
+17	।	।	PUNCT	SYM	_	1	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s9
+# text = मंदिर में गौरी और पार्वती की धातु की मूर्तियाँ हैं ।
+1	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+2	में	में	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	गौरी	गौरी	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=gaurī
+4	और	और	CCONJ	CC	_	5	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+5	पार्वती	पार्वती	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	conj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pārvatī
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	3	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+7	धातु	धातु	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=dhātu
+8	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Plur	7	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+9	मूर्तियाँ	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=mūrtiyām̃
+10	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s10
+# text = दूसरा मंदिर राधाकृष्ण का है, जिसे कृष्ण भक्तों का नूतन प्रयास समझा जाना ही उत्तम होगा ।
+1	दूसरा	दूसरा	ADJ	QO	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	ChunkId=NP|ChunkType=child|Translit=dūsarā
+2	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	राधाकृष्ण	राधाकृष्ण	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rādhākr̥ṣṇa
+4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	3	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+5	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+6	,	COMMA	PUNCT	SYM	_	17	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+7	जिसे	जो	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	13	obj	_	Vib=को|Tam=ko|ChunkId=NP3|ChunkType=head|Translit=jise
+8	कृष्ण	कृष्ण	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=kr̥ṣṇa
+9	भक्तों	भक्त	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bhaktoṁ
+10	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kā
+11	नूतन	नूतन	ADJ	JJ	Case=Nom	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=nūtana
+12	प्रयास	प्रयास	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	acl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=prayāsa
+13	समझा	समझ	VERB	VM	Aspect=Perf|Gender=Masc|VerbForm=Part	17	nsubj	_	Vib=या_जा+ना|Tam=yA|ChunkId=VGNN|ChunkType=head|Translit=samajhā
+14	जाना	जा	AUX	VAUX	Case=Nom|VerbForm=Inf	13	aux:pass	_	Vib=ना|Tam=nA|ChunkId=VGNN|ChunkType=child|Translit=jānā
+15	ही	ही	PART	RP	_	13	dep	_	ChunkId=VGNN|ChunkType=child|Translit=hī
+16	उत्तम	उत्तम	ADJ	JJ	_	17	compound	_	ChunkId=JJP|ChunkType=head|Translit=uttama
+17	होगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	acl:relcl	_	Vib=गा|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=hogā
+18	।	।	PUNCT	SYM	_	2	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s11
+# text = मंदिर के गर्भगृह में नारायण भगवान की सुंदर मूर्ति है ।
+1	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	गर्भगृह	गर्भगृह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=garbhagr̥ha
+4	में	में	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	नारायण	नारायण	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=nārāyaṇa
+6	भगवान	भगवान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bhagavāna
+7	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	6	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+8	सुंदर	सुन्दर	ADJ	JJ	Case=Nom	9	amod	_	ChunkId=NP4|ChunkType=child|Translit=suṁdara
+9	मूर्ति	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mūrti
+10	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s12
+# text = अन्य मूर्तियों में भू - देवी तथा लक्ष्मी की मूर्तियाँ उल्लेखनीय हैं ।
+1	अन्य	अन्य	ADJ	JJ	Case=Acc	2	amod	_	ChunkId=NP|ChunkType=child|Translit=anya
+2	मूर्तियों	मूर्ति	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	11	nmod	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=mūrtiyoṁ
+3	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	भू	भू	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=bhū
+5	-	-	PUNCT	SYM	_	6	punct	_	ChunkId=NP2|ChunkType=child|Translit=-
+6	देवी	देवी	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=devī
+7	तथा	तथा	CCONJ	CC	_	8	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+8	लक्ष्मी	लक्ष्मी	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	conj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=lakṣmī
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	8	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+10	मूर्तियाँ	मूर्ति	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mūrtiyām̃
+11	उल्लेखनीय	उल्लेखनीय	ADJ	JJ	_	0	root	_	ChunkId=JJP|ChunkType=head|Translit=ullekhanīya
+12	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+13	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s13
+# text = यहाँ अनेक कुंड भी हैं ।
+1	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	3	nmod	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	अनेक	अनेक	DET	QF	PronType=Ind	3	det	_	ChunkId=NP2|ChunkType=child|Translit=aneka
+3	कुंड	कुंड	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kuṁḍa
+4	भी	भी	PART	RP	_	3	dep	_	ChunkId=NP2|ChunkType=child|Translit=bhī
+5	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+6	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s14
+# text = इनके नाम ब्रह्म कुंड, रुद्र कुंड और सरस्वती कुंड हैं ।
+1	इनके	यह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=inake
+2	नाम	नाम	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nāma
+3	ब्रह्म	ब्रह्म	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=brahma
+4	कुंड	कुंड	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kuṁḍa
+5	,	COMMA	PUNCT	SYM	_	7	punct	_	ChunkId=NP3|ChunkType=child|Translit=,
+6	रुद्र	रुद्र	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=rudra
+7	कुंड	कुंड	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kuṁḍa
+8	और	और	CCONJ	CC	_	10	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+9	सरस्वती	सरस्वती	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=sarasvatī
+10	कुंड	कुंड	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	conj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kuṁḍa
+11	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+12	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s15
+# text = इस मंदिर में अखंड धूनी जलती रहती है ।
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	अखंड	अखंड	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=akhaṁḍa
+5	धूनी	धूनी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dhūnī
+6	जलती	जल	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_रह+ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=jalatī
+7	रहती	रह	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	6	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahatī
+8	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+9	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s16
+# text = किंवदंती है कि यह वही अग्नि है, जिसको साक्षी कर शिव ने पार्वती से विवाह किया था ।
+1	किंवदंती	किंवदंती	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=kiṁvadaṁtī
+2	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+3	कि	कि	SCONJ	CC	_	6	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+4	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yaha
+5	वही	वह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	6	det	_	ChunkId=NP3|ChunkType=child|Translit=vahī
+6	अग्नि	अग्नि	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=agni
+7	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=hai
+8	,	COMMA	PUNCT	SYM	_	17	punct	_	ChunkId=VGF2|ChunkType=child|Translit=,
+9	जिसको	जो	PRON	PRP	Case=Acc,Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	Vib=को|Tam=ko|ChunkId=NP4|ChunkType=head|Translit=jisako
+10	साक्षी	साक्षी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sākṣī
+11	कर	कर	VERB	VM	_	17	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=kara
+12	शिव	शिव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP6|ChunkType=head|Translit=śiva
+13	ने	ने	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP6|ChunkType=child|Translit=ne
+14	पार्वती	पार्वती	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obl	_	Vib=0_से|Tam=0|ChunkId=NP7|ChunkType=head|Translit=pārvatī
+15	से	से	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP7|ChunkType=child|Translit=se
+16	विवाह	विवाह	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=vivāha
+17	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	Vib=या_था|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative|Translit=kiyā
+18	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	17	aux	_	Vib=था|Tam=WA|ChunkId=VGF3|ChunkType=child|Translit=thā
+19	।	।	PUNCT	SYM	_	1	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s17
+# text = पार्वती का मायका अर्थात हिमालय नरेश का निवास (संभवतः ग्रीष्म निवास) भी यही बताया जाता है ।
+1	पार्वती	पार्वती	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=pārvatī
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+3	मायका	मायका	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=māyakā
+4	अर्थात	अर्थात	SCONJ	CC	_	8	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=arthāta
+5	हिमालय	हिमालय	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=himālaya
+6	नरेश	नरेश	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=nareśa
+7	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	6	case	_	ChunkId=NP3|ChunkType=child|Translit=kā
+8	निवास	निवास	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=nivāsa
+9	(	(	PUNCT	SYM	_	10	punct	_	SpaceAfter=No|ChunkId=RBP|ChunkType=child|Translit=(
+10	संभवतः	संभवतः	ADV	RB	_	16	advmod	_	ChunkId=RBP|ChunkType=head|Translit=saṁbhavataḥ
+11	ग्रीष्म	ग्रीष्म	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=grīṣma
+12	निवास	निवास	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=nivāsa
+13	)	)	PUNCT	SYM	_	12	punct	_	ChunkId=NP5|ChunkType=child|Translit=)
+14	भी	भी	PART	RP	_	12	dep	_	ChunkId=NP5|ChunkType=child|Translit=bhī
+15	यही	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	acl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=yahī
+16	बताया	बता	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=batāyā
+17	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	16	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātā
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+19	।	।	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s18
+# text = भारतीय सेना करती है व्यवस्था ।
+1	भारतीय	भारतीय	PROPN	NNPC	Case=Nom	2	compound	_	ChunkId=NP|ChunkType=child|Translit=bhāratīya
+2	सेना	सेना	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=senā
+3	करती	कर	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=karatī
+4	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+5	व्यवस्था	व्यवस्था	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=vyavasthā
+6	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s19
+# text = दीपावली महापर्व के दूसरे दिन (पड़वा) के दिन शीत ऋतु में मंदिर के द्वार बंद कर दिए जाते हैं ।
+1	दीपावली	दीपावली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=dīpāvalī
+2	महापर्व	महापर्व	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=mahāparva
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	दूसरे	दूसरा	ADJ	QO	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=dūsare
+5	दिन	दिन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	dislocated	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dina
+6	(	(	PUNCT	SYM	_	7	punct	_	SpaceAfter=No|ChunkId=NP3|ChunkType=child|Translit=(
+7	पड़वा	पड़वा	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=paṛavā
+8	)	)	PUNCT	SYM	_	7	punct	_	ChunkId=NP3|ChunkType=child|Translit=)
+9	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	5	dislocated	_	ChunkId=FRAGP|ChunkType=head|Translit=ke
+10	दिन	दिन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=dina
+11	शीत	शीत	PROPN	NNPC	Case=Acc	12	compound	_	ChunkId=NP5|ChunkType=child|Translit=śīta
+12	ऋतु	ऋतु	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	obl	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=r̥tu
+13	में	में	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+14	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=maṁdira
+15	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	14	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+16	द्वार	द्वार	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	18	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=dvāra
+17	बंद	बंद	ADJ	JJ	_	18	compound	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+18	कर	कर	VERB	VM	Gender=Masc|Number=Plur|Person=3|Voice=Act	0	root	_	Vib=0_दे+या_जा+ता_है|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kara
+19	दिए	दे	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	18	aux:pass	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=die
+20	जाते	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	18	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jāte
+21	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+22	।	।	PUNCT	SYM	_	18	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s20
+# text = 6 माह तक दीपक जलता रहता है ।
+1	6	6	NUM	QC	NumType=Card	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=6
+2	माह	माह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	Vib=0_तक|Tam=0|ChunkId=NP|ChunkType=head|Translit=māha
+3	तक	तक	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=taka
+4	दीपक	दीपक	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dīpaka
+5	जलता	जल	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_रह+ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=jalatā
+6	रहता	रह	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahatā
+7	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+8	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s21
+# text = बंद करते समय मंदिर में भारतीय सेना द्वारा उपस्थित श्रद्धालुओं को भोज दिया जाता है ।
+1	बंद	बंद	ADJ	JJ	_	2	compound	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+2	करते	कर	VERB	VM	Aspect=Imp|Case=Acc|VerbForm=Part	13	obl	_	Vib=ता_समय|Tam=wA|ChunkId=VGNN|ChunkType=head|Translit=karate
+3	समय	समय	ADP	PSP	Case=Acc|Gender=Masc	2	mark	_	ChunkId=VGNN|ChunkType=child|Translit=samaya
+4	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+5	में	में	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+6	भारतीय	भारतीय	PROPN	NNPC	Case=Acc	7	compound	_	ChunkId=NP2|ChunkType=child|Translit=bhāratīya
+7	सेना	सेना	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	nsubj:pass	_	Vib=0_द्वारा|Tam=0|ChunkId=NP2|ChunkType=head|Translit=senā
+8	द्वारा	द्वारा	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP2|ChunkType=child|Translit=dvārā
+9	उपस्थित	उपस्थित	ADJ	JJ	_	10	amod	_	ChunkId=NP3|ChunkType=child|Translit=upasthita
+10	श्रद्धालुओं	श्रद्धालु	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	13	iobj	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=śraddhāluoṁ
+11	को	को	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+12	भोज	भोज	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bhoja
+13	दिया	दे	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=diyā
+14	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	13	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātā
+15	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+16	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s22
+# text = भोज का खर्च भारतीय सेना उठाती है ।
+1	भोज	भोज	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=bhoja
+2	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+3	खर्च	खर्च	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kharca
+4	भारतीय	भारतीय	PROPN	NNPC	Case=Nom	5	compound	_	ChunkId=NP3|ChunkType=child|Translit=bhāratīya
+5	सेना	सेना	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=senā
+6	उठाती	उठा	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=uṭhātī
+7	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+8	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s23
+# text = पुरोहित ससम्मान पट बंद कर भगवान के विग्रह एवं दंडी को 6 माह तक पहाड़ के नीचे ऊखीमठ में ले जाते हैं ।
+1	पुरोहित	पुरोहित	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=purohita
+2	ससम्मान	ससम्मान	ADV	RB	_	5	advmod	_	ChunkId=RBP|ChunkType=head|Translit=sasammāna
+3	पट	पट	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=paṭa
+4	बंद	बंद	ADJ	JJ	_	5	compound	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+5	कर	कर	VERB	VM	_	20	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=kara
+6	भगवान	भगवान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bhagavāna
+7	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	विग्रह	विग्रह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=vigraha
+9	एवं	एवं	CCONJ	CC	_	10	cc	_	ChunkId=CCP|ChunkType=head|Translit=evaṁ
+10	दंडी	दंडी	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	conj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=daṁḍī
+11	को	को	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+12	6	6	NUM	QC	NumType=Card	13	nummod	_	ChunkId=NP6|ChunkType=child|Translit=6
+13	माह	माह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0_तक|Tam=0|ChunkId=NP6|ChunkType=head|Translit=māha
+14	तक	तक	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP6|ChunkType=child|Translit=taka
+15	पहाड़	पहाड	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0_के_नीचे|Tam=0|ChunkId=NP7|ChunkType=head|Translit=pahāṛa
+16	के	के	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP7|ChunkType=child|Translit=ke
+17	नीचे	नीचे	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	case	_	AltTag=ADP-NOUN|ChunkId=NP7|ChunkType=child|Translit=nīce
+18	ऊखीमठ	ऊखीमठ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=ūkhīmaṭha
+19	में	में	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+20	ले	ले	VERB	VM	Gender=Masc|Number=Plur|Person=3|Voice=Act	0	root	_	Vib=0_जा+ता_है|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=le
+21	जाते	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	20	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jāte
+22	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+23	।	।	PUNCT	SYM	_	20	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s24
+# text = सेना के जवान भगवान के विग्रह को पालकी में बैंडबाजे से लाते हैं ।
+1	सेना	सेना	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=senā
+2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	जवान	जवान	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=javāna
+4	भगवान	भगवान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bhagavāna
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	4	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+6	विग्रह	विग्रह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=vigraha
+7	को	को	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+8	पालकी	पालकी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	12	obl	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pālakī
+9	में	में	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+10	बैंडबाजे	बैंडबाजा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obl	_	Vib=0_से|Tam=0|ChunkId=NP6|ChunkType=head|Translit=baiṁḍabāje
+11	से	से	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP6|ChunkType=child|Translit=se
+12	लाते	ला	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=lāte
+13	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+14	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s25
+# text = प्रायः 10 किमी पैदल यात्रा करनी पड़ती है ।
+1	प्रायः	प्रायः	ADV	RB	_	6	advmod	_	ChunkId=RBP|ChunkType=head|Translit=prāyaḥ
+2	10	10	NUM	QC	NumType=Card	3	nummod	_	ChunkId=NP|ChunkType=child|Translit=10
+3	किमी	किमी	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=kimī
+4	पैदल	पैदल	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=paidala
+5	यात्रा	यात्रा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yātrā
+6	करनी	कर	VERB	VM	Gender=Fem|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	0	root	_	Vib=ना_पड़+ता_है|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=karanī
+7	पड़ती	पड़	AUX	VAUX	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Person=3|VerbForm=Part	6	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=paṛatī
+8	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+9	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s26
+# text = करोड़ों श्रद्धालुओं की आस्था के प्रतीक केदारनाथ के कपाट खुलने का समय भी मई माह में होता है ।
+1	करोड़ों	करोड	NUM	QC	Number=Plur|NumType=Card	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=karoṛoṁ
+2	श्रद्धालुओं	श्रद्धालु	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=śraddhāluoṁ
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+4	आस्था	आस्था	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āsthā
+5	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3|Polite=Form	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	प्रतीक	प्रतीक	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pratīka
+7	केदारनाथ	केदारनाथ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kedāranātha
+8	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	7	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+9	कपाट	कपाट	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	10	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kapāṭa
+10	खुलने	खुल	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	12	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=khulane
+11	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+12	समय	समय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=samaya
+13	भी	भी	PART	RP	_	12	dep	_	ChunkId=NP6|ChunkType=child|Translit=bhī
+14	मई	मई	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=maī
+15	माह	माह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=0_में|Tam=0|ChunkId=NP7|ChunkType=head|Translit=māha
+16	में	में	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP7|ChunkType=child|Translit=meṁ
+17	होता	हो	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hotā
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+19	।	।	PUNCT	SYM	_	17	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s27
+# text = तब उत्तराखंड की यात्रा आरंभ होती है ।
+1	तब	तब	PRON	PRP	Case=Nom|PronType=Prs	6	obl	_	ChunkId=NP|ChunkType=head|Translit=taba
+2	उत्तराखंड	उत्तराखंड	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=uttarākhaṁḍa
+3	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+4	यात्रा	यात्रा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=yātrā
+5	आरंभ	आरम्भ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=āraṁbha
+6	होती	हो	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hotī
+7	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+8	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s28
+# text = इंदौर में जिस प्रकार से शेरोंवाली माँ की पूजा आस्था तथा विश्वास के साथ की जाती है उसी विश्वास के साथ कोलकाता में काली माँ की पूजा की जाती है ।
+1	इंदौर	इंदौर	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=iṁdaura
+2	में	में	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	जिस	जो	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	4	det	_	ChunkId=NP2|ChunkType=child|Translit=jisa
+4	प्रकार	प्रकार	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=prakāra
+5	से	से	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+6	शेरोंवाली	शेरोंवाली	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=śeroṁvālī
+7	माँ	माँ	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mām̃
+8	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	पूजा	पूजा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=pūjā
+10	आस्था	आस्था	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=āsthā
+11	तथा	तथा	CCONJ	CC	_	12	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+12	विश्वास	विश्वास	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	conj	_	Vib=0_के_साथ|Tam=0|ChunkId=NP6|ChunkType=head|Translit=viśvāsa
+13	के	के	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+14	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	10	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child|Translit=sātha
+15	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	19	acl:relcl	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kī
+16	जाती	जा	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	15	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātī
+17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+18	उसी	वह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	19	det	_	ChunkId=NP7|ChunkType=child|Translit=usī
+19	विश्वास	विश्वास	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	obl	_	Vib=0_के_साथ|Tam=0|ChunkId=NP7|ChunkType=head|Translit=viśvāsa
+20	के	के	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP7|ChunkType=child|Translit=ke
+21	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	19	case	_	AltTag=ADP-NOUN|ChunkId=NP7|ChunkType=child|Translit=sātha
+22	कोलकाता	कोलकाता	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	obl	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=kolakātā
+23	में	में	ADP	PSP	AdpType=Post	22	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+24	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	25	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=kālī
+25	माँ	माँ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	27	nmod	_	Vib=0_का|Tam=0|ChunkId=NP9|ChunkType=head|Translit=mām̃
+26	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	25	case	_	ChunkId=NP9|ChunkType=child|Translit=kī
+27	पूजा	पूजा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	28	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=pūjā
+28	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=kī
+29	जाती	जा	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	28	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātī
+30	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+31	।	।	PUNCT	SYM	_	28	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s29
+# text = जिस प्रकार शेरोंवाली माँ के मंदिर में जगराता होता है, उसी प्रकार काली माँ के मंदिर में जगराता होता है ।
+1	जिस	जो	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=jisa
+2	प्रकार	प्रकार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=prakāra
+3	शेरोंवाली	शेरोंवाली	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=śeroṁvālī
+4	माँ	माँ	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=mām̃
+5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+7	में	में	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+8	जगराता	जगराता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jagarātā
+9	होता	हो	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	13	acl:relcl	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hotā
+10	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+11	,	COMMA	PUNCT	SYM	_	9	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+12	उसी	वह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	13	det	_	ChunkId=NP5|ChunkType=child|Translit=usī
+13	प्रकार	प्रकार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=prakāra
+14	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=kālī
+15	माँ	माँ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=mām̃
+16	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	15	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+17	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0_में|Tam=0|ChunkId=NP7|ChunkType=head|Translit=maṁdira
+18	में	में	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP7|ChunkType=child|Translit=meṁ
+19	जगराता	जगराता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=jagarātā
+20	होता	हो	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=hotā
+21	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+22	।	।	PUNCT	SYM	_	20	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s30
+# text = इसी कारण कोलकातावासी माँ काली के भक्त हैं तथा उनके शक्ति रूप को मानते हैं ।
+1	इसी	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=isī
+2	कारण	कारण	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=kāraṇa
+3	कोलकातावासी	कोलकातावासी	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kolakātāvāsī
+4	माँ	माँ	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=mām̃
+5	काली	काली	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kālī
+6	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	5	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+7	भक्त	भक्त	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bhakta
+8	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+9	तथा	तथा	CCONJ	CC	_	14	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+10	उनके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	Vib=का|Tam=kA|ChunkId=NP5|ChunkType=head|Translit=unake
+11	शक्ति	शक्ति	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=śakti
+12	रूप	रूप	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	Vib=0_को|Tam=0|ChunkId=NP6|ChunkType=head|Translit=rūpa
+13	को	को	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP6|ChunkType=child|Translit=ko
+14	मानते	मान	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	7	conj	_	Vib=ता_है|Tam=wA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=mānate
+15	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+16	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s31
+# text = काली मंदिर में दर्शन किए बिना कोलकाता की सैर अधूरी मानी जाती है ।
+1	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=kālī
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	दर्शन	दर्शन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=darśana
+5	किए	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=kie
+6	बिना	बिना	PART	RP	_	5	dep	_	ChunkId=VGNF|ChunkType=child|Translit=binā
+7	कोलकाता	कोलकाता	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kolakātā
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	सैर	सैर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=saira
+10	अधूरी	अधूरा	ADJ	JJ	Gender=Fem|Number=Sing	11	acl	_	ChunkId=JJP|ChunkType=head|Translit=adhūrī
+11	मानी	मान	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=mānī
+12	जाती	जा	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	11	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātī
+13	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+14	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s32
+# text = हुगली नदी के पूर्वी तट पर स्थित काली मंदिर सन 1855 में बनाया गया था ।
+1	हुगली	हुगली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=hugalī
+2	नदी	नदी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=nadī
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	पूर्वी	पूर्वी	ADJ	JJ	Case=Acc	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=pūrvī
+5	तट	तट	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=taṭa
+6	पर	पर	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+7	स्थित	स्थित	ADJ	JJ	_	9	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+8	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kālī
+9	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+10	सन	सन	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=sana
+11	1855	1855	PROPN	NNP	Case=Acc|Number=Sing|Person=3	13	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=1855
+12	में	में	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+13	बनाया	बना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Vib=या_जा+या1_था|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=banāyā
+14	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+15	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+16	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s33
+# text = इस पुरानी इमारत में दुर्गादेवी तथा शिव की मूर्ति की स्थापना की गई है ।
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	पुरानी	पुराना	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	ChunkId=NP|ChunkType=child|Translit=purānī
+3	इमारत	इमारत	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	12	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=imārata
+4	में	में	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+5	दुर्गादेवी	दुर्गादेवी	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=durgādevī
+6	तथा	तथा	CCONJ	CC	_	7	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+7	शिव	शिव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	conj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=śiva
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	5	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	मूर्ति	मूर्ति	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mūrti
+10	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+11	स्थापना	स्थापना	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sthāpanā
+12	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या_जा+या1_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kī
+13	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	12	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gaī
+14	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+15	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s34
+# text = रानी राशमोनी में स्थित इस पौराणिक मंदिर में प्रवेश करने के लिए आपको उपस्थित भक्तजन की भीड़ का सामना करना पड़ेगा ।
+1	रानी	रानी	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=rānī
+2	राशमोनी	राशमोनी	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=rāśamonī
+3	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	स्थित	स्थित	ADJ	JJ	Case=Acc	7	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+5	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	7	det	_	ChunkId=NP2|ChunkType=child|Translit=isa
+6	पौराणिक	पौराणिक	ADJ	JJ	Case=Acc	7	amod	_	ChunkId=NP2|ChunkType=child|Translit=paurāṇika
+7	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=maṁdira
+8	में	में	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+9	प्रवेश	प्रवेश	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=praveśa
+10	करने	कर	VERB	VM	Case=Acc|VerbForm=Inf	20	advcl	_	Vib=ना_के_लिए|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=karane
+11	के	के	ADP	PSP	AdpType=Post	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+12	लिए	लिए	ADP	PSP	AdpType=Post	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=lie
+13	आपको	आप	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|Polite=Form|PronType=Prs	20	nsubj	_	Vib=को|Tam=ko|ChunkId=NP4|ChunkType=head|Translit=āpako
+14	उपस्थित	उपस्थित	ADJ	JJ	Case=Acc	15	amod	_	ChunkId=NP5|ChunkType=child|Translit=upasthita
+15	भक्तजन	भक्तजन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=bhaktajana
+16	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	15	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+17	भीड़	भीड़	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bhīṛa
+18	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	17	case	_	ChunkId=NP6|ChunkType=child|Translit=kā
+19	सामना	सामना	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=sāmanā
+20	करना	कर	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	Vib=ना_पड़+गा|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=karanā
+21	पड़ेगा	पड़	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Fut|VerbForm=Fin	20	aux	_	Vib=गा|Tam=gA|ChunkId=VGF|ChunkType=child|Translit=paṛegā
+22	।	।	PUNCT	SYM	_	20	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s35
+# text = माँ महाशक्ति के बारे में अनेक कथाएँ प्रचलित हैं ।
+1	माँ	माँ	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=mām̃
+2	महाशक्ति	महाशक्ति	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	nmod	_	Vib=0_के_बारे_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=mahāśakti
+3	के	के	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	बारे	बारे	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=bāre
+5	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+6	अनेक	अनेक	DET	QF	PronType=Ind	7	det	_	ChunkId=NP2|ChunkType=child|Translit=aneka
+7	कथाएँ	कथा	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kathāem̃
+8	प्रचलित	प्रचलित	ADJ	JJ	_	0	root	_	ChunkId=JJP|ChunkType=head|Translit=pracalita
+9	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=haiṁ
+10	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s36
+# text = एक कथा के अनुसार देवी सती ने जब अपने पिता दक्ष के यहाँ अपमानित होकर यज्ञ में स्वयं को भस्म कर लिया तब क्रोध में आकर यज्ञ ध्वंस के समय भगवान शिव ने तांडव नृत्य किया ।
+1	एक	एक	NUM	QC	NumType=Card	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=eka
+2	कथा	कथा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	obl	_	Vib=0_के_अनुसार|Tam=0|ChunkId=NP|ChunkType=head|Translit=kathā
+3	के	के	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	अनुसार	अनुसार	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=anusāra
+5	देवी	देवी	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=devī
+6	सती	सती	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=satī
+7	ने	ने	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+8	जब	जब	PRON	PRP	Case=Nom|PronType=Prs	21	obl	_	ChunkId=NP3|ChunkType=head|Translit=jaba
+9	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	10	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=apane
+10	पिता	पिता	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pitā
+11	दक्ष	दक्ष	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=dakṣa
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	11	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+13	यहाँ	यहाँ	PRON	PRP	Case=Acc|PronType=Prs	21	obl	_	ChunkId=NP7|ChunkType=head|Translit=yahām̃
+14	अपमानित	अपमानित	ADJ	JJ	_	15	compound	_	ChunkId=JJP|ChunkType=head|Translit=apamānita
+15	होकर	हो	VERB	VM	VerbForm=Conv	21	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF|ChunkType=head|Translit=hokara
+16	यज्ञ	यज्ञ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=yajña
+17	में	में	ADP	PSP	AdpType=Post	16	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+18	स्वयं	स्वयं	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	21	obj	_	Vib=0_को|Tam=0|ChunkId=NP9|ChunkType=head|Translit=svayaṁ
+19	को	को	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP9|ChunkType=child|Translit=ko
+20	भस्म	भस्म	ADJ	JJ	_	21	compound	_	ChunkId=JJP2|ChunkType=head|Translit=bhasma
+21	कर	कर	VERB	VM	Number=Sing|Voice=Act	23	acl:relcl	_	Vib=0_ले+या|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kara
+22	लिया	ले	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	21	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=liyā
+23	तब	तब	PRON	PRP	Case=Nom|PronType=Prs	36	obl	_	ChunkId=NP10|ChunkType=head|Translit=taba
+24	क्रोध	क्रोध	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obl	_	Vib=0_में|Tam=0|ChunkId=NP11|ChunkType=head|Translit=krodha
+25	में	में	ADP	PSP	AdpType=Post	24	case	_	ChunkId=NP11|ChunkType=child|Translit=meṁ
+26	आकर	आ	VERB	VM	VerbForm=Conv	36	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF2|ChunkType=head|Translit=ākara
+27	यज्ञ	यज्ञ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	compound	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child|Translit=yajña
+28	ध्वंस	ध्वंस	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	36	obl	_	Vib=0_के_समय|Tam=0|ChunkId=NP12|ChunkType=head|Translit=dhvaṁsa
+29	के	के	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	28	case	_	ChunkId=NP12|ChunkType=child|Translit=ke
+30	समय	समय	ADP	PSP	Case=Acc|Gender=Masc	28	case	_	ChunkId=NP12|ChunkType=child|Translit=samaya
+31	भगवान	भगवान	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	32	compound	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=child|Translit=bhagavāna
+32	शिव	शिव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	36	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP13|ChunkType=head|Translit=śiva
+33	ने	ने	ADP	PSP	AdpType=Post	32	case	_	ChunkId=NP13|ChunkType=child|Translit=ne
+34	तांडव	तांडव	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	35	compound	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=child|Translit=tāṁḍava
+35	नृत्य	नृत्य	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	36	compound	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=nr̥tya
+36	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=kiyā
+37	।	।	PUNCT	SYM	_	36	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s37
+# text = इस समय माता सती के शरीर के अंश कहीं - कहीं धरती पर गिरे ।
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	समय	समय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=samaya
+3	माता	माता	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=mātā
+4	सती	सती	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=satī
+5	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	शरीर	शरीर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0_के|Tam=0|ChunkId=NP3|ChunkType=head|Translit=śarīra
+7	के	के	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	अंश	अंश	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=aṁśa
+9	कहीं	कहीं	PRON	PRP	Case=Nom|PronType=Prs	14	obl	_	ChunkId=NP5|ChunkType=head|Translit=kahīṁ
+10	-	-	PUNCT	SYM	_	9	punct	_	ChunkId=NP5|ChunkType=child|Translit=-
+11	कहीं	कहीं	PRON	RDP	Case=Nom|Echo=Rdp|PronType=Prs	9	compound	_	AltTag=pn-PRON|ChunkId=NP5|ChunkType=child|Translit=kahīṁ
+12	धरती	धरती	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	obl	_	Vib=0_पर|Tam=0|ChunkId=NP6|ChunkType=head|Translit=dharatī
+13	पर	पर	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP6|ChunkType=child|Translit=para
+14	गिरे	गिर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=gire
+15	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s38
+# text = कहते हैं कि उनके पाँव के अंश कोलकाता में जहाँ माँ काली का मंदिर बना है, वहाँ गिरे थे ।
+1	कहते	कह	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kahate
+2	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+3	कि	कि	SCONJ	CC	_	19	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+4	उनके	वह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	5	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=unake
+5	पाँव	पाँव	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0_के|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pām̃va
+6	के	के	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	5	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+7	अंश	अंश	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=aṁśa
+8	कोलकाता	कोलकाता	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kolakātā
+9	में	में	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+10	जहाँ	जहाँ	PRON	PRP	Case=Nom|PronType=Prs	15	obl	_	ChunkId=NP5|ChunkType=head|Translit=jahām̃
+11	माँ	माँ	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=mām̃
+12	काली	काली	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=kālī
+13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	12	case	_	ChunkId=NP6|ChunkType=child|Translit=kā
+14	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=maṁdira
+15	बना	बना	VERB	VM	Number=Sing|Person=3|Voice=Act	18	acl:relcl	_	Vib=0_है|Tam=0|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=banā
+16	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+17	,	COMMA	PUNCT	SYM	_	15	punct	_	ChunkId=VGF2|ChunkType=child|Translit=,
+18	वहाँ	वहाँ	PRON	PRP	Case=Nom|PronType=Prs	19	obl	_	ChunkId=NP8|ChunkType=head|Translit=vahām̃
+19	गिरे	गिर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	1	obj	_	Vib=या_था|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative|Translit=gire
+20	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	19	aux	_	Vib=था|Tam=WA|ChunkId=VGF3|ChunkType=child|Translit=the
+21	।	।	PUNCT	SYM	_	1	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s39
+# text = इन अंशों ने पत्थर का रूप धारण किया था ।
+1	इन	यह	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=ina
+2	अंशों	अंश	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=aṁśoṁ
+3	ने	ने	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+4	पत्थर	पत्थर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=patthara
+5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+6	रूप	रूप	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=rūpa
+7	धारण	धारण	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=dhāraṇa
+8	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=या_था|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kiyā
+9	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+10	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s40
+# text = इसी की पूजा - अर्चना की जाती है ।
+1	इसी	यह	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=isī
+2	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+3	पूजा	पूजा	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=pūjā
+4	-	-	PUNCT	SYM	_	5	punct	_	ChunkId=NP2|ChunkType=child|Translit=-
+5	अर्चना	अर्चना	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=arcanā
+6	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kī
+7	जाती	जा	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	6	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātī
+8	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+9	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s41
+# text = एक और कथा भी प्रचलित है कि भागीरथी नदी के तट पर एक भक्त ने पाँव के अँगूठे के आकार का पत्थर पाया था जो स्वयंभू लिंग था और नकुलेश्वर भैरव का प्रतीक था ।
+1	एक	एक	NUM	QC	NumType=Card	3	nummod	_	ChunkId=NP|ChunkType=child|Translit=eka
+2	और	और	ADJ	JJ	Case=Nom	3	amod	_	ChunkId=NP|ChunkType=child|Translit=aura
+3	कथा	कथा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=kathā
+4	भी	भी	PART	RP	_	3	dep	_	ChunkId=NP|ChunkType=child|Translit=bhī
+5	प्रचलित	प्रचलित	ADJ	JJ	_	0	root	_	ChunkId=JJP|ChunkType=head|Translit=pracalita
+6	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+7	कि	कि	SCONJ	CC	_	23	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+8	भागीरथी	भागीरथी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=bhāgīrathī
+9	नदी	नदी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nadī
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	9	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+11	तट	तट	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	Vib=0_पर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=taṭa
+12	पर	पर	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP3|ChunkType=child|Translit=para
+13	एक	एक	NUM	QC	NumType=Card	14	nummod	_	ChunkId=NP4|ChunkType=child|Translit=eka
+14	भक्त	भक्त	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bhakta
+15	ने	ने	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+16	पाँव	पाँव	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pām̃va
+17	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	16	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+18	अँगूठे	अँगूठा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=am̃gūṭhe
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	18	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+20	आकार	आकार	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=ākāra
+21	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	20	case	_	ChunkId=NP7|ChunkType=child|Translit=kā
+22	पत्थर	पत्थर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=patthara
+23	पाया	पा	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	Vib=या_था|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=pāyā
+24	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	23	aux	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=thā
+25	जो	जो	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=jo
+26	स्वयंभू	स्वयंभू	ADJ	JJ	Case=Nom	27	amod	_	ChunkId=NP10|ChunkType=child|Translit=svayaṁbhū
+27	लिंग	लिंग	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	acl:relcl	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=liṁga
+28	था	था	AUX	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	_	Vib=था|Tam=WA|ChunkId=VGF3|ChunkType=head|Stype=declarative|Translit=thā
+29	और	और	CCONJ	CC	_	33	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+30	नकुलेश्वर	नकुलेश्वर	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child|Translit=nakuleśvara
+31	भैरव	भैरव	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	33	nmod	_	Vib=0_का|Tam=0|ChunkId=NP11|ChunkType=head|Translit=bhairava
+32	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	31	case	_	ChunkId=NP11|ChunkType=child|Translit=kā
+33	प्रतीक	प्रतीक	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	conj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=pratīka
+34	था	था	AUX	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	cop	_	Vib=था|Tam=WA|ChunkId=VGF4|ChunkType=head|Stype=declarative|Translit=thā
+35	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s42
+# text = भक्त इसे जंगल में ले गया और माँ काली की पूजा करने लगा ।
+1	भक्त	भक्त	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=bhakta
+2	इसे	यह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	5	obj	_	Vib=को|Tam=ko|ChunkId=NP2|ChunkType=head|Translit=ise
+3	जंगल	जंगल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=jaṁgala
+4	में	में	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+5	ले	ले	VERB	VM	Number=Sing|Voice=Act	0	root	_	Vib=0_जा+या1|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=le
+6	गया	जा	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	aux	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+7	और	और	CCONJ	CC	_	12	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	माँ	माँ	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=mām̃
+9	काली	काली	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kālī
+10	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+11	पूजा	पूजा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pūjā
+12	करने	कर	VERB	VM	Number=Sing|VerbForm=Inf|Voice=Act	5	conj	_	Vib=ना_लग+या|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=karane
+13	लगा	लग	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	12	aux	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=lagā
+14	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s43
+# text = कोलकाता स्थित प्रसिद्ध काली माँ का मंदिर बहुत ही भव्य है ।
+1	कोलकाता	कोलकाता	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=kolakātā
+2	स्थित	स्थित	ADJ	JJ	Case=Acc	7	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+3	प्रसिद्ध	प्रसिद्ध	ADJ	JJ	Case=Acc	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=prasiddha
+4	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kālī
+5	माँ	माँ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=mām̃
+6	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	5	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+7	मंदिर	मंदिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+8	बहुत	बहुत	DET	QF	PronType=Ind	10	det	_	ChunkId=JJP2|ChunkType=child|Translit=bahuta
+9	ही	ही	PART	RP	_	8	dep	_	ChunkId=JJP2|ChunkType=child|Translit=hī
+10	भव्य	भव्य	ADJ	JJ	_	0	root	_	ChunkId=JJP2|ChunkType=head|Translit=bhavya
+11	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=hai
+12	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s44
+# text = इस मंदिर की दीवारों पर बनाई गई टेराकोटा की चित्रकला के अवशेष यहाँ दिखाई देते हैं ।
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	2	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+4	दीवारों	दीवार	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	6	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dīvāroṁ
+5	पर	पर	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+6	बनाई	बना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	Vib=या_जा+या1|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=banāī
+7	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	6	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gaī
+8	टेराकोटा	टेराकोटा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ṭerākoṭā
+9	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	8	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+10	चित्रकला	चित्रकला	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=citrakalā
+11	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	10	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+12	अवशेष	अवशेष	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=avaśeṣa
+13	यहाँ	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	14	obl	_	ChunkId=NP6|ChunkType=head|Translit=yahām̃
+14	दिखाई	दिखा	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या_दे+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=dikhāī
+15	देते	दे	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	14	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=dete
+16	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+17	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s45
+# text = मंदिर के पुजारी काली माँ की मूर्ति को स्नान कराते हैं जिसे स्नान यात्रा के नाम से जाना जाता है ।
+1	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur|Person=3	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	पुजारी	पुजारी	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pujārī
+4	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kālī
+5	माँ	माँ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mām̃
+6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	5	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+7	मूर्ति	मूर्ति	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mūrti
+8	को	को	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+9	स्नान	स्नान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=snāna
+10	कराते	करा	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=karāte
+11	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+12	जिसे	जो	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	18	obj	_	Vib=को|Tam=ko|ChunkId=NP6|ChunkType=head|Translit=jise
+13	स्नान	स्नान	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=snāna
+14	यात्रा	यात्रा	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=yātrā
+15	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	14	case	_	ChunkId=NP7|ChunkType=child|Translit=ke
+16	नाम	नाम	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	acl	_	Vib=0_से|Tam=0|ChunkId=NP8|ChunkType=head|Translit=nāma
+17	से	से	ADP	PSP	AdpType=Post	16	case	_	ChunkId=NP8|ChunkType=child|Translit=se
+18	जाना	जान	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	9	acl:relcl	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=jānā
+19	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	18	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātā
+20	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+21	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s46
+# text = ऐसा साल में एक बार किया जाता है ।
+1	ऐसा	ऐसा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	6	obj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=aisā
+2	साल	साल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sāla
+3	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+4	एक	एक	NUM	QC	NumType=Card	5	nummod	_	ChunkId=NP3|ChunkType=child|Translit=eka
+5	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bāra
+6	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kiyā
+7	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātā
+8	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+9	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s47
+# text = इस दिन अनगिनत भक्तजन आते हैं ।
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	दिन	दिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=dina
+3	अनगिनत	अनगिनत	DET	QF	PronType=Ind	4	det	_	ChunkId=NP2|ChunkType=child|Translit=anaginata
+4	भक्तजन	भक्तजन	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bhaktajana
+5	आते	आ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=ता_है|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=āte
+6	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s48
+# text = काली मंदिर में दुर्गा पूजा, नवरात्रि तथा दशहरा के दिन देवी की विशेष पूजा की जाती है ।
+1	काली	काली	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=kālī
+2	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	दुर्गा	दुर्गा	PROPN	NNPC	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=durgā
+5	पूजा	पूजा	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obl	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pūjā
+6	,	COMMA	PUNCT	SYM	_	7	punct	_	ChunkId=NP2|ChunkType=child|Translit=,
+7	नवरात्रि	नवरात्रि	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=navarātri
+8	तथा	तथा	CCONJ	CC	_	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+9	दशहरा	दशहरा	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=daśaharā
+10	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+11	दिन	दिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	conj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=dina
+12	देवी	देवी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=devī
+13	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	12	case	_	ChunkId=NP6|ChunkType=child|Translit=kī
+14	विशेष	विशेष	ADJ	JJ	Case=Nom	15	amod	_	ChunkId=NP7|ChunkType=child|Translit=viśeṣa
+15	पूजा	पूजा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=pūjā
+16	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=kī
+17	जाती	जा	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	16	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātī
+18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+19	।	।	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s49
+# text = इस पूजा का समय अक्टूबर के महीने में तय समय के अनुसार रखा जाता है ।
+1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	पूजा	पूजा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=pūjā
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+4	समय	समय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=samaya
+5	अक्टूबर	अक्टूबर	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=akṭūbara
+6	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	5	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+7	महीने	महीना	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mahīne
+8	में	में	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+9	तय	तय	ADJ	JJ	Case=Acc	10	amod	_	ChunkId=NP5|ChunkType=child|Translit=taya
+10	समय	समय	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0_के_अनुसार|Tam=0|ChunkId=NP5|ChunkType=head|Translit=samaya
+11	के	के	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+12	अनुसार	अनुसार	ADP	PSP	Case=Acc|Gender=Masc	10	case	_	ChunkId=NP5|ChunkType=child|Translit=anusāra
+13	रखा	रख	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	Vib=या_जा+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=rakhā
+14	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	13	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātā
+15	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+16	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = test-s50
+# text = मंदिर के पट तड़के 3.00 से लेकर प्रातः 8.00 बजे तक खुले रहते हैं तथा प्रतिदिन प्रातः 10.00 से लेकर संध्या 5.00 बजे तक भक्तजन मंदिर में पूजा - अर्चना कर सकते हैं ।
+1	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	पट	पट	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=paṭa
+4	तड़के	तड़के	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=taṛake
+5	3.00	3.00	NUM	QC	Case=Acc|NumType=Card	8	nmod	_	Vib=0_से_लेकर|ChunkId=NP4|ChunkType=head|Translit=3.00
+6	से	से	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+7	लेकर	लेकर	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP4|ChunkType=child|Translit=lekara
+8	प्रातः	प्रातः	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=prātaḥ
+9	8.00	8.00	NUM	QC	NumType=Card	10	nummod	_	ChunkId=NP6|ChunkType=child|Translit=8.00
+10	बजे	बजे	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obl	_	Vib=0_तक|Tam=0|ChunkId=NP6|ChunkType=head|Translit=baje
+11	तक	तक	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP6|ChunkType=child|Translit=taka
+12	खुले	खुल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	Vib=या_रह+ता_है|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=khule
+13	रहते	रह	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	12	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahate
+14	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+15	तथा	तथा	CCONJ	CC	_	31	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+16	प्रतिदिन	प्रतिदिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=pratidina
+17	प्रातः	प्रातः	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=prātaḥ
+18	10.00	10.00	NUM	QC	Case=Acc|NumType=Card	21	nmod	_	Vib=0_से_लेकर|ChunkId=NP9|ChunkType=head|Translit=10.00
+19	से	से	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP9|ChunkType=child|Translit=se
+20	लेकर	लेकर	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP9|ChunkType=child|Translit=lekara
+21	संध्या	संध्या	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=saṁdhyā
+22	5.00	5.00	NUM	QC	NumType=Card	23	nummod	_	ChunkId=NP11|ChunkType=child|Translit=5.00
+23	बजे	बजे	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obl	_	Vib=0_तक|Tam=0|ChunkId=NP11|ChunkType=head|Translit=baje
+24	तक	तक	ADP	PSP	AdpType=Post	23	case	_	ChunkId=NP11|ChunkType=child|Translit=taka
+25	भक्तजन	भक्तजन	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=bhaktajana
+26	मंदिर	मंदिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obl	_	Vib=0_में|Tam=0|ChunkId=NP13|ChunkType=head|Translit=maṁdira
+27	में	में	ADP	PSP	AdpType=Post	26	case	_	ChunkId=NP13|ChunkType=child|Translit=meṁ
+28	पूजा	पूजा	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	30	compound	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=child|Translit=pūjā
+29	-	-	PUNCT	SYM	_	30	punct	_	ChunkId=NP14|ChunkType=child|Translit=-
+30	अर्चना	अर्चना	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	compound	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=arcanā
+31	कर	कर	VERB	VM	Gender=Masc|Number=Plur|Person=3|Voice=Act	12	conj	_	Vib=0_सक+ता_है|Tam=0|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=kara
+32	सकते	सक	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	31	aux	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=sakate
+33	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+34	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+

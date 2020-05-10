@@ -1,0 +1,55 @@
+dataset:
+  observation_fieldnames:
+     - index
+     - sentence
+     - lemma_sentence
+     - upos_sentence
+     - xpos_sentence
+     - morph
+     - head_indices
+     - governance_relations
+     - secondary_relations
+     - extra_info
+     - embeddings
+  corpus:
+    root: example/data/hindi/
+    train_path: hindi-hdtb-ud-train.conllu
+    dev_path: hindi-hdtb-ud-dev.conllu
+    test_path: hindi-hdtb-ud-test.conllu
+  embeddings:
+    type: token #{token,subword}
+    root: example/data/hindi/ 
+    train_path: train.elmo-layers.hdf5
+    dev_path: dev.elmo-layers.hdf5
+    test_path: test.elmo-layers.hdf5
+  batch_size: 40
+model:
+  hidden_dim: 1024 # ELMo hidden dim
+  #embedding_dim: 1024 # ELMo word embedding dim
+  model_type: ELMo-disk # BERT-disk, ELMo-disk, 
+  use_disk: True
+  model_layer: 2 # BERT-base: {1,...,12}; ELMo: {1,2,3}
+probe:
+  task_signature: word_pair # word, word_pair
+  task_name: parse-distance
+  maximum_rank: 32
+  psd_parameters: True
+  diagonal: False
+  params_path: predictor.params
+probe_training:
+  epochs: 10
+  loss: L1
+reporting:
+  root: example/results
+  observation_paths:
+    train_path: train.observations
+    dev_path: dev.observations
+    test_path: test.observations
+  prediction_paths:
+    train_path: train.predictions
+    dev_path: dev.predictions
+    test_path: test.predictions
+  reporting_methods:
+    - spearmanr
+      #- image_examples
+    - uuas
